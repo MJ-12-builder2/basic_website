@@ -1,0 +1,43 @@
+body {
+    background-color: white;
+}
+
+.Full_Name {
+    text-align: left;
+    display: flex;
+    padding: 1em;
+}
+
+.Which_City {
+    text-align: left;
+    padding: 1em;
+}
+
+.Foreign_Language {
+    text-align: left;
+    padding: 1em;
+}
+
+.Historical_Places {
+    text-align: left;
+    display: flex;
+    padding: 1em;
+}
+
+@media (min-width: 576px){
+    .Which_City {
+        display: block;
+    }
+    .Historical_Places{
+        display: block;
+    }
+}
+
+@media (min-width: 992px){
+    .Which_City{
+        display: flex;
+    }
+    .Historical_Places{
+        display: flex;
+    }
+}

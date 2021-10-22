@@ -20,7 +20,6 @@ body {
 
 .Historical_Places {
     text-align: left;
-    display: flex;
     display: inline;
     padding: 1em;
 }

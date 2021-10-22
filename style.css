@@ -26,10 +26,10 @@ body {
 
 @media (min-width: 576px){
     .City_of_Cape_Town{
-        display: block;
+        display: flex;
     }
     .Historical_Places{
-        display: block;
+        display: inline-flexbox;
     }
 }
 
@@ -38,6 +38,6 @@ body {
         display: flex;
     }
     .Historical_Places{
-        display: flex;
+        display: inline-flexbox;
     }
 }

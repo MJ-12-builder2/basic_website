@@ -29,7 +29,7 @@ body {
         display: flex;
     }
     .Historical_Places{
-        display: inline-flexbox;
+        display: inline-block;
     }
 }
 
@@ -38,6 +38,6 @@ body {
         display: flex;
     }
     .Historical_Places{
-        display: inline-flexbox;
+        display: inline-block;
     }
 }

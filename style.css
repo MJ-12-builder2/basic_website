@@ -2,18 +2,18 @@ body {
     background-color: white;
 }
 
-.Full_Name {
+.Madoda_Ngwekazi {
     text-align: left;
     display: flex;
     padding: 1em;
 }
 
-.Which_City {
+.City_of_Cape_Town {
     text-align: left;
     padding: 1em;
 }
 
-.Foreign_Language {
+.French {
     text-align: left;
     padding: 1em;
 }
@@ -21,11 +21,12 @@ body {
 .Historical_Places {
     text-align: left;
     display: flex;
+    display: inline;
     padding: 1em;
 }
 
 @media (min-width: 576px){
-    .Which_City {
+    .City_of_Cape_Town{
         display: block;
     }
     .Historical_Places{
@@ -34,7 +35,7 @@ body {
 }
 
 @media (min-width: 992px){
-    .Which_City{
+    .City_of_Cape_Town{
         display: flex;
     }
     .Historical_Places{

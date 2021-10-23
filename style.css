@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: rgb(59, 150, 192);
 }
 
 .Madoda_Ngwekazi {
@@ -20,24 +20,23 @@ body {
 
 .Historical_Places {
     text-align: left;
-    display: flexbox;
     padding: 1em;
 }
 
 @media (min-width: 576px){
     .City_of_Cape_Town{
-        display: flex;
+        display: inline-block;
     }
     .Historical_Places{
-        display: inline-block;
+        display: flex;
     }
 }
 
 @media (min-width: 992px){
     .City_of_Cape_Town{
-        display: flex;
+        display: inline-block;
     }
     .Historical_Places{
-        display: inline-block;
+        display: flex;
     }
 }

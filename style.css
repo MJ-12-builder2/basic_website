@@ -3,24 +3,23 @@ body {
 }
 
 .Madoda_Ngwekazi {
-    text-align: left;
+    text-align: center;
     display: flex;
-    padding: 1em;
 }
 
 .City_of_Cape_Town {
-    text-align: left;
-    padding: 1em;
+    text-align: center;
 }
 
 .French {
     text-align: left;
-    padding: 1em;
+
 }
 
 .Historical_Places {
-    text-align: left;
+    text-align: center;
     padding: 1em;
+    border: 2px solid white;
 }
 
 @media (min-width: 576px){
@@ -32,7 +31,7 @@ body {
     }
 }
 
-@media (min-width: 992px){
+@media (min-width: 960px){
     .City_of_Cape_Town{
         display: inline-block;
     }
